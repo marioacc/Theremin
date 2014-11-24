@@ -10,41 +10,53 @@
 	<string>Mandolin</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>6AD831FB-476A-474C-A38B-E7FD42C9E04E</key>
-		<string>ssh://github.com/bellpipe/Mandolin.git</string>
-		<key>E1E2B411-5E50-4ABF-9BCF-2C13A20A9AA0</key>
+		<key>84C76115633E19C4CD8A4DF5F3E2E1ED1F182DB3</key>
+		<string>https://github.com/arielelkin/Mandolin</string>
+		<key>CF62AFF489EC5CAA44EC939D83D4F00113564430</key>
+		<string>github.com:thestk/stk.git</string>
+		<key>F1BC4876811AFC3F9EBAC1327B95940A459E2E4A</key>
 		<string>https://github.com/TheAmazingAudioEngine/TheAmazingAudioEngine.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Mandolin.xcodeproj/project.xcworkspace</string>
+	<string>Mandolin.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>6AD831FB-476A-474C-A38B-E7FD42C9E04E</key>
+		<key>84C76115633E19C4CD8A4DF5F3E2E1ED1F182DB3</key>
 		<string>../..</string>
-		<key>E1E2B411-5E50-4ABF-9BCF-2C13A20A9AA0</key>
-		<string>../../TheAmazingAudioEngine</string>
+		<key>CF62AFF489EC5CAA44EC939D83D4F00113564430</key>
+		<string>../..Libraries/stk</string>
+		<key>F1BC4876811AFC3F9EBAC1327B95940A459E2E4A</key>
+		<string>../..Libraries/TheAmazingAudioEngine</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github.com/bellpipe/Mandolin.git</string>
+	<string>https://github.com/arielelkin/Mandolin</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>6AD831FB-476A-474C-A38B-E7FD42C9E04E</string>
+	<string>84C76115633E19C4CD8A4DF5F3E2E1ED1F182DB3</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>6AD831FB-476A-474C-A38B-E7FD42C9E04E</string>
+			<string>84C76115633E19C4CD8A4DF5F3E2E1ED1F182DB3</string>
 			<key>IDESourceControlWCCName</key>
-			<string>Mandolin</string>
+			<string>mandolin</string>
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>E1E2B411-5E50-4ABF-9BCF-2C13A20A9AA0</string>
+			<string>CF62AFF489EC5CAA44EC939D83D4F00113564430</string>
+			<key>IDESourceControlWCCName</key>
+			<string>stk</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F1BC4876811AFC3F9EBAC1327B95940A459E2E4A</string>
 			<key>IDESourceControlWCCName</key>
 			<string>TheAmazingAudioEngine</string>
 		</dict>
