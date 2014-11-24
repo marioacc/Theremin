@@ -12,5 +12,8 @@
     
 }
 
+@property (weak, nonatomic) IBOutlet UILabel *rotX;
+@property (weak, nonatomic) IBOutlet UILabel *rotY;
+@property (weak, nonatomic) IBOutlet UILabel *rotZ;
 
 @end

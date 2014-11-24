@@ -65,9 +65,25 @@
     
     //Motion Manager set up:
     manager = [[CMMotionManager alloc] init];
+    manager.gyroUpdateInterval=.2;
+    
+    [manager startGyroUpdatesToQueue:[NSOperationQueue currentQueue]
+                                    withHandler:^(CMGyroData *gyroData, NSError *error) {
+                                        [self outputRotationData:gyroData.rotationRate];
+                                    }];
+    
     [NSTimer scheduledTimerWithTimeInterval:0.1 target:self selector:@selector(getValues:) userInfo:nil repeats:YES];
     manager.accelerometerUpdateInterval = 0.05;  // 20 Hz
     [manager startAccelerometerUpdates];
+}
+
+-(void) outputRotationData:(CMRotationRate)rotation{
+    self.rotX.text = [NSString stringWithFormat:@" %.2fr/s",rotation.x];
+    
+    self.rotY.text = [NSString stringWithFormat:@" %.2fr/s",rotation.y];
+    
+    self.rotZ.text = [NSString stringWithFormat:@" %.2fr/s",rotation.z];
+    
 }
 //Motion Manager callback for polling acc data:
 -(void) getValues:(NSTimer *) timer {
